@@ -1,6 +1,7 @@
 #ifndef KALMAN_FILTER_H_
 #define KALMAN_FILTER_H_
 #include "Eigen/Dense"
+//#include "FusionEKF.h"
 
 class KalmanFilter {
 public:
@@ -23,6 +24,10 @@ public:
   // measurement covariance matrix
   Eigen::MatrixXd R_;
 
+  //predicted measurement in polar
+  Eigen::VectorXd hx_;
+
+  
   /**
    * Constructor
    */
