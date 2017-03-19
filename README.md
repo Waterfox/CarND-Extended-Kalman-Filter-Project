@@ -1,6 +1,6 @@
 # Extended Kalman Filter Project
 
-Build the project from build directory
+Build the project from the build directory
 ```
 $cmake..&& make
 ```
@@ -20,8 +20,8 @@ Accuracy - RMSE:
 - vx: 0.54319
 - vy: 0.544191
 
-![alt text](\dataset1.png "Logo Title Text 1")
-![alt text](\dataset1_1.png "Logo Title Text 1")
+![alt text](dataset1.png "Logo Title Text 1")
+![alt text](dataset1_1.png "Logo Title Text 1")
 
 ## Dataset 2
 
@@ -33,4 +33,4 @@ Accuracy - RMSE:
 - vx: 0.476754
 - vy: 0.804469
 
-![alt text](\dataset2.png "Logo Title Text 1")
+![alt text](dataset2.png "Logo Title Text 1")
