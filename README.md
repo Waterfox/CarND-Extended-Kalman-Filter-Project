@@ -2,7 +2,7 @@
 
 Build the project from the build directory
 ```
-$cmake..&& make
+cmake..&& make
 ```
 Run the kalman Filter from the build directory
 ```
@@ -34,3 +34,7 @@ Accuracy - RMSE:
 - vy: 0.804469
 
 ![alt text](dataset2.png "Logo Title Text 1")
+
+These plots were generated with the plot_kalman.ipynb notebook. 
+
+The specifications for this project do not indicate that detailed write-up is required. Please let me know if I'm wrong.
